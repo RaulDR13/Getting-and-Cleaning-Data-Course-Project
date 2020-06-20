@@ -29,4 +29,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 7.Create a second, independent tidy set with the average of each variable for each activity and each subject.
 
-8.Write the data set to the tidy_data.txt file.
+8.Write the data set to the finaltidydata.txt file.
