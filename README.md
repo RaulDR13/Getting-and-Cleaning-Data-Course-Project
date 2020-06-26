@@ -15,18 +15,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 `run_analysis` script takes the data mencioned above and does the following:
 
-1.Download and unzip source data if it doesn't exist. 
+-Download and unzip source data if it doesn't exist. 
 
-2.Read data.
+- Read the data and merge the training and the test sets to create one data set.
 
-3.Merge the training and the test sets to create one data set.
+- Extract only the measurements on the mean and standard deviation for each measurement.
 
-4.Extract only the measurements on the mean and standard deviation for each measurement.
+- Label the data set with descriptive variable names.
 
-5.Use descriptive activity names to name the activities in the data set.
+- Create a n independent tidy set with the average of each variable for each activity and each subject.
 
-6.Label the data set with descriptive variable names.
-
-7.Create a second, independent tidy set with the average of each variable for each activity and each subject.
-
-8.Write the data set to the finaltidydata.txt file.
+- Write the data set to the finaltidydata.txt file.
